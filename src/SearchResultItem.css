@@ -1,0 +1,28 @@
+.SearchResultItem-button {
+  align-items: center;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  cursor: pointer;
+  display: flex;
+  padding: 15px;
+  width: 100%;
+}
+
+.SearchResultItem-button:hover {
+  background: #eee;
+}
+
+.SearchResultItem-image {
+  width: 32px;
+  height: 32px;
+  padding-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .SearchResultItem-button {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,19 @@
+.Header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 15px;
+}
+
+.Header-image {
+  height: 32px;
+  width: 32px;
+}
+
+.Header-title {
+  color: #333;
+  font-size: 32px;
+  font-weight: normal;
+  padding: 0 15px;
+}
